@@ -1,1 +1,5 @@
 <%= @dinner[rand(@dinner.size)].name %>
+<br>
+<%= link_to 'Get another dinner option', dinners_path %>
+<br>
+<%= link_to 'Add new dinner', new_dinner_path %>
