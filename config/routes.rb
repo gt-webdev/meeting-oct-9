@@ -1,5 +1,6 @@
 Wtf2eat::Application.routes.draw do
-  match '/dinner' => 'dinners#index'
+  resources :dinners
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
