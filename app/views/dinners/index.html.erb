@@ -1,4 +1,4 @@
-<%= @dinner[rand(@dinner.size)].name %>
+<%= @dinner.name %> <%= link_to '(edit)', edit_dinner_path(@dinner) %> <%= link_to '(delete)', @dinner, method: :delete %>
 <br>
 <%= link_to 'Get another dinner option', dinners_path %>
 <br>
